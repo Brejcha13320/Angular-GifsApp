@@ -32,7 +32,6 @@ jobs:
       - name: Build Angular App
         run: |
           npm run build:github
-          ls -l
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
