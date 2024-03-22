@@ -31,7 +31,7 @@ jobs:
 
       - name: Build Angular App
         run: |
-          npm run build:github
+          npm run build
           ls -l
 
       - name: Setup Pages
